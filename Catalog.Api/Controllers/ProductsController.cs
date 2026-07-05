@@ -77,4 +77,15 @@ public class ProductsController : ControllerBase
 
         return NoContent();
     }
+
+    [HttpGet("health")]
+    public IActionResult Health()
+    {
+        return Ok(new
+        {
+            status = "Healthy",
+            service = "Product Catalog API",
+            timestamp = DateTime.UtcNow
+        });
+    }
 }

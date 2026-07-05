@@ -108,5 +108,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.Api.Controllers.ProductsController",
+    "Method": "Health",
+    "RelativePath": "api/Products/health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
